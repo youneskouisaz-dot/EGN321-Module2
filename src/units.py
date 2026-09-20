@@ -20,3 +20,14 @@ def cubic_feet_to_gallons(cubic_feet):
 def gallons_to_cubic_feet(gallons):
     """Convert U.S. gallons to cubic feet."""
     return gallons / CUBIC_FEET_TO_GALLONS
+KPA_TO_PSI = 0.1450377377
+
+
+def kpa_to_psi(kpa):
+    """Convert pressure from kilopascals to pounds per square inch."""
+    return kpa * KPA_TO_PSI
+
+
+def psi_to_kpa(psi):
+    """Convert pressure from pounds per square inch to kilopascals."""
+    return psi / KPA_TO_PSI
