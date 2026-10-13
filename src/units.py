@@ -31,3 +31,7 @@ def kpa_to_psi(kpa):
 def psi_to_kpa(psi):
     """Convert pressure from pounds per square inch to kilopascals."""
     return psi / KPA_TO_PSI
+
+def celsius_to_fahrenheit(celsius):
+    """Convert temperature from Celsius to Fahrenheit."""
+    return (celsius * 9 / 5) + 32
